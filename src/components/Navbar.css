@@ -1,0 +1,40 @@
+/* Navbar.css */
+.navbar {
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #c5c2c2;
+    padding: 8px;
+  }
+  
+  .auth-buttons a {
+    margin-left: 10px;
+    padding: 5px 10px;
+    color: teal;
+    /* background: #fff; */
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .auth-buttons a:hover {
+    background-color:#c5c2c2 ;
+    padding: 8px;
+  }

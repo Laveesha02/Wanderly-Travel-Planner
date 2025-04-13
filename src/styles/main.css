@@ -1,0 +1,98 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .app-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color:teal;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .auth-buttons a {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+  }
+  
+  /* HomePage styles */
+  .hero {
+    background: url(https://images.pexels.com/photos/7368277/pexels-photo-7368277.jpeg?auto=compress&cs=tinysrgb&w=400) no-repeat center center/cover;
+    color: #fff;
+    padding: 60px 20px;
+  }
+  
+  .features {
+    padding: 20px;
+  }
+  
+  .features section {
+    margin-bottom: 20px;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+  }
+  .cookie-banner {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .cookie-banner button {
+    background-color: #008080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cookie-banner button:hover {
+    background-color: #006666;
+  }
+  
+  .last-visit-banner {
+    background-color: #dff0d8;
+    color: #3c763d;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  

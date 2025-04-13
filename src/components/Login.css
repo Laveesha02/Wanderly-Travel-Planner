@@ -1,0 +1,75 @@
+/* Container for the entire form */
+.form-cont {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #e9e7e7;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Profile image styling */
+.form-cont img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+/* Styling for input fields */
+.form-cont input[type="text"],
+.form-cont input[type="password"] {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+/* Input field focus effect */
+.form-cont input[type="text"]:focus,
+.form-cont input[type="password"]:focus {
+    border-color: teal;
+}
+
+/* Submit button styling */
+#login-btn {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: teal;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for submit button */
+#login-btn:hover {
+    background-color:rgb(73, 184, 184);
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .form-cont {
+        padding: 1.5rem;
+    }
+
+    .form-cont img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #login-btn {
+        font-size: 14px;
+    }
+}

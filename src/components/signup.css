@@ -1,0 +1,63 @@
+/* General container styling for the signup form */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white; /* Teal background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  /* Card-like design for the signup form */
+  .signup-card {
+    background-color: #e9e7e7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+  }
+  
+  /* Styling for the avatar image */
+  .signup-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for form inputs */
+  .signup-card input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Styling for the signup button */
+  .signup-card button {
+    background-color: #008080; /* Teal color */
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .signup-card button:hover {
+    background-color: #006666; /* Darker teal for hover */
+  }
+  
+  /* Message styling */
+  .signup-card p {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+  }
+  

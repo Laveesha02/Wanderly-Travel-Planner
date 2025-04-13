@@ -1,0 +1,69 @@
+.ib{
+  background: url(https://images.pexels.com/photos/7368277/pexels-photo-7368277.jpeg?auto=compress&cs=tinysrgb&w=400) no-repeat center center/cover;
+
+}
+
+.itinerary-builder {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e9e7e7;
+    box-shadow: 0 0 10px rgba(60, 59, 59, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .itinerary-builder h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #4b4848;
+  }
+  
+  .itinerary-builder form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .itinerary-builder input,
+  .itinerary-builder textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: gray;
+
+  }
+  
+  .itinerary-builder input[type="date"] {
+    font-family: inherit;
+    color: gray;
+  }
+  
+  .itinerary-builder textarea {
+    height: 100px;
+    resize: vertical;
+    color: gray;
+
+  }
+  
+  .itinerary-builder button {
+    padding: 10px 0;
+    background-color: teal;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .itinerary-builder button:hover {
+    background-color:rgb(73, 184, 184);
+  }
+  
+  .itinerary-builder button:active {
+    transform: scale(0.98);
+  }
+  
